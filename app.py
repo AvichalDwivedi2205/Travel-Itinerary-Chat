@@ -120,7 +120,7 @@ def main():
                 st.session_state.current_step = -1  # Reset conversation
 
             # Rerun to update the UI
-            st.experimental_rerun()
+            st.rerun()
 
 if __name__ == "__main__":
     main()

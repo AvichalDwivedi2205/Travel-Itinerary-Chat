@@ -11,6 +11,7 @@ The next 2 question asks about the person's dietary preferences and any allergie
 The next question asks about the eprson's walking tolerance so that the travel could be designed like that
 The next three questions asks about where he wants his accomodation to be, what type of accomodation the user prefers and is there any facility that he wants.
 
+# Final Prompt Structure
 Finally I put in the last propmt taking in all the input and give it to gemini.
 I ask gemini to seperate the day in 3 intervals of morning, afternoon and evening, make dietary plans as per regulations set by the user, Make transportation options depending on the walking tolerance of the person, make cost estimates depending on the budget and finally give them local insider tips and some gems that te=hey would not want to miss.
 I also ask it to group nearby attractions to save time. Along with that I asked it to keep time in between for meals and add give safety tips. Finally I asked to give answer in english as there was some errors which generated answer in some other language.

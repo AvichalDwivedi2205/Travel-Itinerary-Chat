@@ -48,7 +48,7 @@ def main():
         "Are you allergic to any food or animals?",
         "What is your walking tolerance? (low, moderate, high)",
         "Preferred accommodation type? (hotel, hostel, air-bnb, resort, etc.)",
-        "Do you want any specific thing in your accomodation? (swimming pool, gym, spa, etc.)",
+        "Do toy want any specific features or amenities in your accommodation? For example, a swimming pool, gym, spa, or anything else?",
         "Preferred accommodation location? (city center, quiet area, next to nature, specific landmark, etc.)"
     ]
 

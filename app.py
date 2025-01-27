@@ -46,7 +46,7 @@ def main():
         "What activities interest you? (sightseeing, trekking, cultural experiences, etc.)",
         "Any dietary preferences we should consider?",
         "Preferred accommodation type? (hotel, hostel, air-bnb, resort, etc.)",
-        "Do you want any specific thing in your hotel",
+        "Do you want any specific thing in your accomodation? (swimming pool, gym, spa, etc.)",
         "Preferred accommodation location? (city center, quiet area, next to nature, specific landmark, etc.)"
     ]
 
@@ -107,7 +107,8 @@ def main():
                     "2. Balance popular spots with unique local experiences",
                     "3. Include time buffers for meals and transit",
                     "4. Add safety tips and cultural notes",
-                    "5. Format with clear daily headings and emojis"
+                    "5. Format with clear daily headings and emojis",
+                    "6. Give me answer only in english"
                 ]
 
                 prompt = "Create a detailed travel itinerary with:\n" + "\n".join(prompt_lines)

@@ -110,7 +110,8 @@ def main():
                     "3. Include time buffers for meals and transit and meals should follow the dietary regulations",
                     "4. Add safety tips and cultural notes",
                     "5. Format with clear daily headings and emojis",
-                    "6. Give me answer only in english"
+                    "6. Give me answer only in english",
+                    "7. Provide a summary at the end with total cost and time spent on each activity"
                 ]
 
                 prompt = "Create a detailed travel itinerary with:\n" + "\n".join(prompt_lines)

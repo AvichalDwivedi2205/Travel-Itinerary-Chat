@@ -52,6 +52,17 @@ def main():
         "Preferred accommodation location? (city center, quiet area, next to nature, specific landmark, etc.)"
     ]
 
+    values = [
+        "General Exploration",
+        "No Specific Activities",
+        "No Dietary Preferences",
+        "No Food Allergies",
+        "Moderate",
+        "No Specific Accommodation Type",
+        "No Specific Features",
+        "No Specific Location"
+    ]
+
     # Starting the conversation button
     if st.button("\u2728 Start Interactive Planning") and destination:
         st.session_state.current_step = 0
@@ -76,7 +87,7 @@ def main():
         })
 
     if st.session_state.current_step >= 0 and st.session_state.current_step < len(questions):
-        user_input = st.text_input("Your answer:", key=f"input_{st.session_state.current_step}")
+        user_input = st.text_input("Your answer:", key=f"input_{st.session_state.current_step}", value=values[st.session_state.current_step])
         
         if user_input:
             # Storing the user's response for the end prompt

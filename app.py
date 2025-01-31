@@ -15,7 +15,7 @@ def generate_response(prompt):
     return response.text
 
 def main():
-    st.title("\U0001F30D Personalized Travel Itinerary Generator")
+    st.title("🌍 Personalized Travel Itinerary Generator")
 
     # Initializing the state
     if "messages" not in st.session_state:
